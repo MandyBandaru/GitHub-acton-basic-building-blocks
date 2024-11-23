@@ -19,7 +19,7 @@ jobs:
         run: npm install
       - name: Lint
         run: |
-          🔍 Running linter...
+          echo "🔍 Running linter..."
           npm run lint
   test: 
     runs-on: ubuntu-latest
